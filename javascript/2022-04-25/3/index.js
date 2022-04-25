@@ -8,6 +8,3 @@ const autocorrect = input => {
    input = input.replace(/(?<=[^a-z|^])[u](?=[^a-z]|$)/gi, 'your client');
    return input;
 }
-
-console.log(autocorrect("We have sent the deliverables to u."), "We have sent the deliverables to your client.");
-console.log(autocorrect("Our team is excited to finish this with u."), "Our team is excited to finish this with your client.");
