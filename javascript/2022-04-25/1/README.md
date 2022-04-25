@@ -18,16 +18,11 @@ Test cases will provide various array and string sizes. The array will always be
 You do not have to check whether the string is a real word or not, only if it's a valid guess.
 
 ## Specification
-checkWord(board, word)
+>```checkWord(board, word)```
 Parameters
 board: Array<Array<String>> - 2D array of individual characters
 
-word: String - word to check if valid
+>```word: String - word to check if valid```
 
-Return Value
+>Return
 Boolean - True if word is valid for the given board
-
-Examples
-board	word	Return Value
-[["E","A","R","A"],["N","L","E","C"],["I","A","I","S"],["B","Y","O","R"]]	"EAR"	true
-[["E","A","R","A"],["N","L","E","C"],["I","A","I","S"],["B","Y","O","R"]]

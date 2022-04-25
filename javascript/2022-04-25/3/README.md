@@ -13,16 +13,18 @@ For the purposes of this task, here's what you need to support:
 "youuuuu" with any number of "u" characters tacked onto the end
 "u" at the beginning, middle, or end of a string, but NOT part of a word
 "you" but NOT as part of another word like "young" or "Bayou"
-Specification
-autocorrect(input)
+
+## Specification
+>```autocorrect(input)```
 Parameters
 input: String - the text to be autocorrected
 
-Return Value
+>Return 
 String - The autocorrected text
 
-Examples
-input	Return Value
-"We have sent the deliverables to you."	"We have sent the deliverables to your client."
-"Our team is excited to finish this with you."	"Our team is excited to finish this with your client."
-"youtube"	"youtube"
+## Examples
+|input|Return|
+|-----|-----|
+|"We have sent the deliverables to you."|"We have sent the deliverables to your client."|
+|"Our team is excited to finish this with you."|"Our team is excited to finish this with your client."|
+|"youtube"|"youtube"|
